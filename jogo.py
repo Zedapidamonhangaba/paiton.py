@@ -1,4 +1,3 @@
-
 import random
 continuar = "S"
 Perro = 0
