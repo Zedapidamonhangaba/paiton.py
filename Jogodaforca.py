@@ -20,7 +20,7 @@ def Forca(tentativa):
     if tentativa >= 6:
         f5 = " |        | "
     if tentativa >= 7:
-        f6 = " |        / "
+        f6 = " |       / "
     if tentativa >= 8:
         f6 = " |       / \ "
     
