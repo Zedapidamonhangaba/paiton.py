@@ -47,6 +47,19 @@ def Sorteiapalavra():
     return random.choice(lista)
 
 
+def apresentapalavra(letras,palavra):
+    npalavra= "_ " * len(palavra)
+    for L in range(0, len(letras)):
+        print(letras[L])
+        for P in range(0, len(palavra)):
+            #print(palavra[P])
+            if letras[L]==palavra[P]:
+                print(letras[L])
+                print[L]
+                print[P]
+            
+    return npalavra 
+        
 
 def Continua():
     while True:
@@ -75,8 +88,5 @@ Forca(0)
 import random
 print(Sorteiapalavra())
 
+print(apresentapalavra("ABX", "Abacaxi"))
 
-def apresentapalavra(letras,palavra):
-    npalavra= "_ " * len(palavra)
-    return npalavra
-print(apresentapalavra("AB", "Abacaxi"))
