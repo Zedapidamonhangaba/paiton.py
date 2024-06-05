@@ -40,7 +40,10 @@ def Forca(tentativa):
     print(f7)
 
 def Sorteiapalavra():
-    lista =["Osvaldo", "Transformes", "Vidro", "Chantagem", "Zumbi", "Coroa", "Camaro", "Mustang", "Estelionato", "Athletico"]
+    lista =["Osvaldo","Transformes", "Vidro", "Chantagem", "Zumbi","Morsego", 
+            "Coroa","Camaro", "Mustang", "Estelionato", "Athletico","Aids",
+            "Amor","Vermelho","Amnésia", "Guia", "Cego", "Caxumba", "Neymaru", 
+            "Caatinga","Bugiganga", "Balacobaco", "Gnomo", "Abelha", "Maior"]
     return random.choice(lista)
 
 
@@ -71,3 +74,9 @@ Forca(0)
 
 import random
 print(Sorteiapalavra())
+
+
+def apresentapalavra(letras,palavra):
+    npalavra= "_ " * len(palavra)
+    return npalavra
+print(apresentapalavra("AB", "Abacaxi"))
